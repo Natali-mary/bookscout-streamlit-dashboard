@@ -14,18 +14,15 @@ Ziel des Projektes ist es, Buchinformationen automatisiert zu sammeln, aufzubere
 
 Der gesamte Datenprozess wurde automatisiert umgesetzt:
 
-```text
-books.toscrape.com
-        ↓
-Web Scraping
-        ↓
-Open Library API
-        ↓
-SQLite Database
-        ↓
-Streamlit Dashboard
-
----
+books.toscrape.com  
+↓  
+Web Scraping  
+↓  
+Open Library API  
+↓  
+SQLite Database  
+↓  
+Streamlit Dashboard  
 
 ![Pipeline Architektur](images/pipeline_architecture.png)
 
@@ -50,12 +47,7 @@ Streamlit Dashboard
 ### Datensammlung
 
 - Automatisches Web Scraping von Buchdaten
-- Extraktion von:
-  - Titel
-  - Preis
-  - Bewertung
-  - Kategorie
-  - Verfügbarkeit
+- Extraktion von Titel, Preis, Bewertung, Kategorie und Verfügbarkeit
 
 ### Datenanreicherung
 
@@ -96,11 +88,9 @@ Das interaktive Dashboard ermöglicht:
 
 ![Dashboard Overview](images/dashboard_overview.png)
 
-
 ### Book Explorer
 
 ![Book Catalog](images/book_catalog.png)
-
 
 ### Segmentierungsanalyse
 
@@ -112,25 +102,15 @@ Das interaktive Dashboard ermöglicht:
 
 ### Source Code
 
-Der vollständige Programmcode befindet sich im Ordner:
-
-```
-src/
-```
+Der vollständige Programmcode befindet sich im Ordner `src/`.
 
 ### Datenbank
 
-Die SQLite-Datenbank befindet sich im Ordner:
-
-```
-data/
-```
+Die SQLite-Datenbank befindet sich im Ordner `data/`.
 
 ### Präsentation
 
-Die vollständige Projektpräsentation:
-
-[presentation/bookscout_praesentation.pdf](presentation/bookscout_praesentation.pdf)
+[Projektpräsentation öffnen](presentation/bookscout_praesentation.pdf)
 
 ---
 
@@ -149,36 +129,6 @@ Mögliche Einsatzbereiche:
 - Marktanalyse
 - Preisoptimierung
 - Empfehlungssysteme
-
----
-
-## Projektstruktur
-
-```
-bookscout-streamlit-dashboard/
-
-├── data/
-│   └── bookscout.db
-│
-├── images/
-│   ├── pipeline_architecture.png
-│   ├── dashboard_overview.png
-│   ├── book_catalog.png
-│   └── segmentation_analysis.png
-│
-├── presentation/
-│   └── bookscout_praesentation.pdf
-│
-├── src/
-│   ├── app.py
-│   ├── scraper.py
-│   ├── database.py
-│   └── ...
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
 
 ---
 
