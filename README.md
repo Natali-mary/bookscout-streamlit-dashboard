@@ -132,8 +132,6 @@ Mögliche Einsatzbereiche:
 
 ---
 
----
-
 ## Projektkontext
 
 Dieses Projekt wurde als Teamprojekt entwickelt.
