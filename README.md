@@ -132,8 +132,20 @@ Mögliche Einsatzbereiche:
 
 ---
 
-## Autorin
+---
+
+## Projektkontext
+
+Dieses Projekt wurde als Teamprojekt entwickelt.
+
+## Beitrag
 
 Natalia Melnytska
+
+Schwerpunkte:
+- Datenanalyse
+- Dashboard-Konzeption
+- Visualisierung
+- Dokumentation und Präsentation
 
 Data Analytics | Python | SQL | Streamlit
